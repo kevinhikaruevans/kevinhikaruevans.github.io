@@ -1,6 +1,6 @@
 {
   "name": "Fullscreen PWA test",
-  "display": "standalone",
+  "display": "fullscreen",
   "start_url": "/",
   "orientation":  "landscape"
 }
