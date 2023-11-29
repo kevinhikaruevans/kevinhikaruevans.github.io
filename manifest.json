@@ -1,6 +1,14 @@
 {
-  "name": "Fullscreen PWA test",
-  "display": "fullscreen",
-  "start_url": "/",
-  "orientation":  "landscape"
+  "name": "Fullscreen PWA test",
+  "display": "standalone",
+  "start_url": "/",
+  "scope": "/",
+  "description": "Testing PWA",
+  "icons": [
+    {
+      "src": "https://tesseract.dubvee.org/logo_512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+    }
+  ]
 }
