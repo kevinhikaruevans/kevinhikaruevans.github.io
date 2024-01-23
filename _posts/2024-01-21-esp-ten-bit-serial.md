@@ -39,6 +39,8 @@ It initializes the RMT with:
 - a loopback receiver
 - an ugly decoder that performs some rounding (e.g. rounding 8 us to 10 us)
 
+{% raw %}
+
 ```c
 #include "freertos/FreeRTOS.h"
 #include "freertos/task.h" 
@@ -398,3 +400,4 @@ void app_main() {
   }
 }
 ```
+{% endraw %}
