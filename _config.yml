@@ -1,4 +1,4 @@
-remote_theme: "jeffreytse/jekyll-theme-yat"
+theme: minima
 title: Kevin's Dumb Blog
 author: Kevin Evans
 description: This is my little blog.
