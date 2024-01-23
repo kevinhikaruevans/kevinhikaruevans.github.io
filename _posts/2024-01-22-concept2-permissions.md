@@ -1,7 +1,7 @@
 ---
 title: Concept2 Logbook Vuln
 description: Quick API bug in Concept2's logbook
-date: 2024-01-24
+date: 2024-01-22
 tags: rowing fun computers security
 ---
 
