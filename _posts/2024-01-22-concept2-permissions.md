@@ -12,7 +12,7 @@ Some time last month, I was wanting to sync my Concept2 erg logbook with my Goog
 To retrieve your user data, it's a simple `GET` call,
 
 ```bash
-curl https://log.concept2.com/api/users/$USER_ID --header "Authorization: Bearer $API_KEY | jq"
+curl https://log.concept2.com/api/users/$USER_ID --header "Authorization: Bearer $API_KEY" | jq
 ```
 
 This retrieves a lovely JSON-formatted response,
@@ -43,7 +43,7 @@ This retrieves a lovely JSON-formatted response,
 I was curious to see what would result if I weren't authorized, so I ran
 
 ```bash
-curl https://log.concept2.com/api/users/$((USER_ID+1)) --header "Authorization: Bearer $API_KEY | jq"
+curl https://log.concept2.com/api/users/$((USER_ID+1)) --header "Authorization: Bearer $API_KEY" | jq
 ```
 
 To my surprise, this gave me the same data fields for other users! I could retrieve the username, first and last names, gender, DOB, email, weight, max HR, and profile images of ANY user on Concept2!
