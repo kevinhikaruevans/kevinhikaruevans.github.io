@@ -1,3 +1,7 @@
+---
+title: Readings
+---
+
 Here's a list of things that I'm currently reading or will read at some point.
 
 - [beej's network programming guide](https://github.com/beejjorgensen/bgnet)
