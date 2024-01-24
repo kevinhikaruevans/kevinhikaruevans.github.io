@@ -5,7 +5,7 @@ date: 2024-01-22
 tags: rowing fun computers security
 ---
 
-Some time last month, I was wanting to sync my Concept2 erg logbook with my Google Fit data. Concept2's API is actually quite pleasant to work with and had the data that I was wanting to retrieve. However, I noticed that their endpoint could be scraped to retrieve very sensitive info on others. Concept2 responded quickly and addressed the problems, but their response was not very reassuring.
+Some time last month, I was wanting to sync my Concept2 erg logbook with my Google Fit data. Concept2's API is actually quite pleasant to work with and had the data that I was wanting to retrieve. However, I noticed that their endpoint could be scraped to retrieve very sensitive info on others. Concept2 responded quickly and addressed the problems, but I question whether or not my data is safe in Concept2's servers.
 
 ### Their API
 
