@@ -2,3 +2,6 @@ theme: minima
 title: Kevin's Blog
 author: Kevin Evans
 description: This is my little blog.
+header_pages:
+  - index.md
+  - readings.md
