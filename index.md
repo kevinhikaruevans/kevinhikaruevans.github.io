@@ -14,5 +14,3 @@ I intend to post occasionally, mostly for my own purposes. Every now and then, I
    * [Email](mailto:evans.kevinh@gmail.com)
    * [LinkedIn](https://linkedin.com/in/khevans)
    * [Mastodon](https://hachyderm.io/@kevinevans)
-
----
