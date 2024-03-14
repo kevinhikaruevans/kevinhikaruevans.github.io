@@ -5,3 +5,6 @@ description: This is my little blog.
 header_pages:
   - index.md
   - readings.md
+comments: true
+disqus:
+  shortname: khevans
