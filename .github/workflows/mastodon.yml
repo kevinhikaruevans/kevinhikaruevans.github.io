@@ -1,0 +1,39 @@
+name: Post New Blog Post to Mastodon
+
+on:
+  push:
+    paths:
+      - _posts/**
+
+jobs:
+  post-to-mastodon:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Set up Ruby
+      uses: ruby/setup-ruby@v1
+      with:
+        ruby-version: 2.7
+
+    - name: Install dependencies
+      run: bundle install
+
+    - name: Find new blog post
+      id: new_post
+      run: |
+        LAST_COMMIT=$(git log -1 --pretty=%B)
+        if [[ "$LAST_COMMIT" == *"post"* ]]; then
+          NEW_POST=$(git diff-tree --no-commit-id --name-only -r HEAD | grep _posts/ | tail -n 1)
+          POST_URL="https://khevans.com/${NEW_POST/_posts\//}" # Adjust the URL format as necessary
+          echo "new_post_url=$POST_URL" >> $GITHUB_ENV
+        fi
+
+    - name: Post to Mastodon
+      if: env.new_post_url != ''
+      run: |
+        curl -X POST "https://${{ secrets.MASTODON_INSTANCE_URL }}/api/v1/statuses" \
+        -H "Authorization: Bearer ${{ secrets.MASTODON_ACCESS_TOKEN }}" \
+        -d "status=New blog post: ${{ env.new_post_url }}"
