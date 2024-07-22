@@ -13,21 +13,16 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v2
 
-    - name: Set up Ruby
-      uses: ruby/setup-ruby@v1
-      with:
-        ruby-version: 2.7
-
-    - name: Install dependencies
-      run: bundle install
-
     - name: Find new blog post
       id: new_post
       run: |
         LAST_COMMIT=$(git log -1 --pretty=%B)
-        if [[ "$LAST_COMMIT" == *"post"* ]]; then
+        if [[ "$LAST_COMMIT" == *"new"* ]]; then
           NEW_POST=$(git diff-tree --no-commit-id --name-only -r HEAD | grep _posts/ | tail -n 1)
-          POST_URL="https://khevans.com/${NEW_POST/_posts\//}" # Adjust the URL format as necessary
+          POST_NAME=$(basename "$NEW_POST" .md)
+          DATE_PART=$(echo "$POST_NAME" | cut -d'-' -f1-3 | tr '-' '/')
+          SLUG_PART=$(echo "$POST_NAME" | cut -d'-' -f4-)
+          POST_URL="https://khevans.com/$DATE_PART/$SLUG_PART"
           echo "new_post_url=$POST_URL" >> $GITHUB_ENV
         fi
 
