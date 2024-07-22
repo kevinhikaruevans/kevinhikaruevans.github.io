@@ -16,12 +16,24 @@ jobs:
     - name: Find new blog post
       id: new_post
       run: |
-        NEW_POST=$(git diff-tree --no-commit-id --name-only -r HEAD | grep _posts/ | tail -n 1)
-        POST_NAME=$(basename "$NEW_POST" .md)
-        DATE_PART=$(echo "$POST_NAME" | cut -d'-' -f1-3 | tr '-' '/')
-        SLUG_PART=$(echo "$POST_NAME" | cut -d'-' -f4-)
-        POST_URL="https://khevans.com/$DATE_PART/$SLUG_PART/"
-        echo "new_post_url=$POST_URL" >> $GITHUB_ENV
+        LAST_COMMIT_MSG=$(git log -1 --pretty=%B)
+        echo $LAST_COMMIT_MSG
+        if [[ "$LAST_COMMIT_MSG" == *"new blog post"* ]]; then
+          NEW_POST=$(git diff-tree --no-commit-id --name-only -r HEAD | grep _posts/ | tail -n 1)
+          echo $NEW_POST
+
+          if [ -n "$NEW_POST" ]; then
+            POST_NAME=$(basename "$NEW_POST" .md)
+            echo $POST_NAME
+            DATE_PART=$(echo "$POST_NAME" | cut -d'-' -f1-3 | tr '-' '/')
+            echo $DATE_PART
+            SLUG_PART=$(echo "$POST_NAME" | cut -d'-' -f4-)
+            echo $SLUG_PART
+            POST_URL="https://khevans.com/$DATE_PART/$SLUG_PART/"
+            echo $POST_URL
+            echo "new_post_url=$POST_URL" >> $GITHUB_ENV
+          fi
+        fi
 
     - name: Post to Mastodon
       if: env.new_post_url != ''
