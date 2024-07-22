@@ -17,11 +17,11 @@ jobs:
       id: new_post
       run: |
         LAST_COMMIT_MSG=$(git log -1 --pretty=%B)
-        echo $LAST_COMMIT_MSG
+        echo "last commit msg='$LAST_COMMIT_MSG'"
 
-        if [[ $LAST_COMMIT_MSG == "new post"* ]]; then
+        if [[ "$LAST_COMMIT_MSG" == "new post"* ]]; then
           NEW_POST=$(git diff-tree --no-commit-id --name-only -r HEAD | grep _posts/ | tail -n 1)
-          echo $NEW_POST
+          echo "new post=$NEW_POST"
 
           if [ -n "$NEW_POST" ]; then
             POST_NAME=$(basename "$NEW_POST" .md)
