@@ -18,7 +18,8 @@ jobs:
       run: |
         LAST_COMMIT_MSG=$(git log -1 --pretty=%B)
         echo $LAST_COMMIT_MSG
-        if [[ "$LAST_COMMIT_MSG" == *"new blog post"* ]]; then
+
+        if [[ $LAST_COMMIT_MSG == "new post"* ]]; then
           NEW_POST=$(git diff-tree --no-commit-id --name-only -r HEAD | grep _posts/ | tail -n 1)
           echo $NEW_POST
 
@@ -40,4 +41,4 @@ jobs:
       run: |
         curl -X POST "https://${{ secrets.MASTODON_INSTANCE_URL }}/api/v1/statuses" \
         -H "Authorization: Bearer ${{ secrets.MASTODON_ACCESS_TOKEN }}" \
-        -d "status=New blog post: ${{ env.new_post_url }}"
+        -d "visibility=unlisted&status=New blog post: ${{ env.new_post_url }}"
