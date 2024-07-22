@@ -1,7 +1,7 @@
 theme: minima
 title: Kevin's Blog
 author: Kevin Evans
-description: This is my little blog.
+description: This is my little blog about programming, electronics, and whatever I feel like writing about.
 header_pages:
   - index.md
   - readings.md
