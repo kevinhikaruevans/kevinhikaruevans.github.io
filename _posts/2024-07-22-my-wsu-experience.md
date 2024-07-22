@@ -27,3 +27,4 @@ Then he CC'd some other folks in the department. I can understand why he said th
 
 This could've been a cool learning and mentorship experience. Plus, it could've helped other engineering students who had trouble capturing the displays. But instead, we're continuing to take these pictures of CRTs. Instead, _we're not engineering anything_ but strictly following the course guidelines. Can't go beyond those guidelines, eh. Well, hey, I thought it would've been a cool project. 
 
+
