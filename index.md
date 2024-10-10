@@ -4,7 +4,7 @@ title: Home
 
 ## Greetings!
 
-I intend to post occasionally, mostly for my own purposes. Every now and then, I might post something interesting or meaningful.
+This is my personal blog, journal, and diary. I don't really know what to post here, so I'm mostly using this for my own purposes.
 
 ### Links
 
