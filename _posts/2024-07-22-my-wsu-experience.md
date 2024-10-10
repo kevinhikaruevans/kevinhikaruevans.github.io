@@ -5,7 +5,7 @@ date: 2024-07-22
 tags: computers wsu college
 ---
 
-Here's a (possibly cringeworthy) story from my EECS undergrad experience at WSU. I didn't fully enjoy my schooling here for a variety of reasons, but this is just one of the reasons why.
+Here's a story (read: my cringey rant) from my EECS undergrad experience at WSU. I didn't fully enjoy my schooling here for a variety of reasons, but this is just one of the reasons why.
 
 While getting my degree, I had several electrical engineering courses with labs. During one of the early labs, we were using curve tracers to characterize diodes. Many of y'all know the drill: plug in a diode or transitor into a curve tracer, it sweeps the voltage and displays the output. Our curve tracers are... _antiquated_. We're using some dusty Tek 571s, which were due for calibration about thirty years ago. I am surprised that our lab equipment is so outdated, but this might be [related to the fact that our university's presidents and coaches are some of the state's top paid employees](https://opengovwa.com/employee).
 
