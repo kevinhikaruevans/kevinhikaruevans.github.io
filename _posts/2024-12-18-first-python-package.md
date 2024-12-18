@@ -1,5 +1,5 @@
 ---
-title: My first Python package - pydantic-sqlalchemy-deco
+title: "My first Python package: pydantic-sqlalchemy-deco"
 description: My foray into Python
 date: 2024-12-18
 tags: programming
