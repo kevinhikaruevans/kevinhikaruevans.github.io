@@ -13,4 +13,4 @@ This is my personal blog, journal, and diary. I don't really know what to post h
 * To contact me, your options are:
    * [Email](mailto:evans.kevinh@gmail.com)
    * [LinkedIn](https://linkedin.com/in/khevans)
-   * [Mastodon](https://hachyderm.io/@kevinevans)
+   * <a rel="me" href="https://hachyderm.io/@kevinevans">Mastodon</a>
