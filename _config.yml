@@ -5,7 +5,4 @@ description: This is my little blog about programming, electronics, and whatever
 header_pages:
   - index.md
   - readings.md
-comments: true
-disqus:
-  shortname: khevans
 github_username:  kevinhikaruevans
