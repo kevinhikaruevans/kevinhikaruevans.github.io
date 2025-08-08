@@ -21,11 +21,11 @@ I wanted to create an alarm that can let me know if the coffee maker was left on
 I also wanted to do this completely non-destructively and keep the coffee maker relatively stock and revertable to its original form.
 
 <video width="360" height="640" controls>
-  <source src="/assets/videos/coffee-maker-thing/startup.mp4" type="video/mp4">
+  <source src="/assets/videos/coffee-maker-thing/startup.webm" type="video/webm">
 </video>
 
 <video width="360" height="640" controls>
-  <source src="/assets/videos/coffee-maker-thing/done.mp4" type="video/mp4">
+  <source src="/assets/videos/coffee-maker-thing/done.webm" type="video/webm">
 </video>
 
 # Prototyping
