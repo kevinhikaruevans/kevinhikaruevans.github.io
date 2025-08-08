@@ -48,6 +48,8 @@ The system can be divided into a few parts:
 
 I borrowed a flatbed scanner to get the board outline (surprisingly, it was 1:1), then used a set of dividers and a ruler to get the precise measurements. Then I imported the image into Inkscape and created an SVG of the outline using bezier curves, which I could then bring into KiCAD. Then, I printed out a 1:1 copy, cut it out, and confirmed it fit in there. 
 
+![board outline](/assets/images/coffee-maker-thing/outline.png)
+
 This was by far the easiest solution of getting the outline. I initially tried to sketch it by transferring measurements between the coffee maker into CAD, but that was painstakingly slow and I couldn't replicate the curves easily enough.
 
 ### Power supply
