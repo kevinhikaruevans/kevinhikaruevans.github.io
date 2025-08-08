@@ -29,7 +29,7 @@ I also wanted to do this completely non-destructively and keep the coffee maker 
 </video>
 
 # Prototyping
-Since I want this to be revertable, using a non-contact current sense would be the best choice. I have a couple current transformers (CTs) that I've salvaged, and I think these would be the best choice for measuring whether the thermostat is switched on or off, since it's non-invasive and ``isolated.'' 
+Since I want this to be revertable, using a non-contact current sense would be the best choice. I have a couple current transformers (CTs) that I've salvaged and they will work for measuring whether the thermostat is switched on or off, since it's non-invasive and relatively safe.
 
 I initially just stuck the CT inline with a 10k resistor and probed it, just to see what the wave looked like (it was as-expected for a resistive heater, but skewed a little from stray effects).
 
