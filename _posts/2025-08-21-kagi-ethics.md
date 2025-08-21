@@ -5,7 +5,7 @@ date: 2025-08-21
 tags: thoughts
 ---
 
-I recently trialed Kagi as a paid, replacement search engine for DDG and Google. It's fairly good at reducing the amount of SEO-crammed results in the first page but I began to question whether or not to continue using it. 
+I recently trialed Kagi as a paid, replacement search engine for DDG and Google. It's fairly good at reducing the amount of SEO-crammed results in the first page but I began to question whether or not to continue using it due to concerns in the community regarding their ethics and moral duties.
 
 A part of [Kagi's mission](https://help.kagi.com/kagi/company/) is to make the web more ethical. But I feel that some of their actions go against this mission and I ultimately cannot continue supporting Kagi in good conscience.
 
