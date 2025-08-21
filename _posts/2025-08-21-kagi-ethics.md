@@ -19,7 +19,7 @@ At least other search engines like DuckDuckGo have [halted](https://web.archive.
 
 ## Inclusion of X/Twitter xAI's Grok
 
-A portion of your fee goes towards Twitter/X to support Grok in their AI assistant. Indeed, you can simply not use this assistant, however all paying users are subsidizing the cost of Grok's API calls toward Twitter/X.
+A portion of your fee goes towards Twitter/X to support Grok in their AI assistant. Indeed, you can simply not use this assistant, however all paying users are subsidizing the cost of Grok's API calls toward Twitter/X. There is no way to opt-out of this.
 
 Is it ethical to finance a company which consistently promotes division among the population, the spread of misinformation, and hate speech? Is it ethical to give money to a company that continually platforms white supremacists?
 
