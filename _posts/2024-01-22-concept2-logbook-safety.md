@@ -46,7 +46,7 @@ I was curious to see what would result if I weren't authorized, so I ran
 curl https://log.concept2.com/api/users/$((USER_ID+1)) --header "Authorization: Bearer $API_KEY" | jq
 ```
 
-To my surprise, this gave me the same data fields for other users! I could retrieve the username, first and last names, gender, DOB, email, weight, max HR, and profile images of ANY user on Concept2!
+To my surprise, this gave me the same data fields for other users! I could retrieve the username, first and last names, gender, DOB, email, weight, max HR, and profile images of ANY user on Concept2, including children!
 
 ![screenshot showing profile data with sensitive information redacted](/assets/images/2024-01-24-term-screenshot.png)
 
