@@ -1,13 +1,13 @@
 ---
 title: "Ethics of Kagi"
-description: Thoughts about how ethical Kagi is
+description: "Spoiler: Kagi doesn't seem very ethical"
 date: 2025-08-21
 tags: thoughts
 ---
 
-I recently trialed Kagi as a paid, replacement search engine for DDG and Google. It's fairly good at reducing the amount of SEO-crammed results in the first page but I question whether or not to continue using it in the future. 
+I recently trialed Kagi as a paid, replacement search engine for DDG and Google. It's fairly good at reducing the amount of SEO-crammed results in the first page but I began to question whether or not to continue using it. 
 
-A part of [Kagi's mission](https://help.kagi.com/kagi/company/) is to make the web more ethical. I feel that some of their actions go against this mission and I ultimately cannot continue supporting Kagi in good conscience.
+A part of [Kagi's mission](https://help.kagi.com/kagi/company/) is to make the web more ethical. But I feel that some of their actions go against this mission and I ultimately cannot continue supporting Kagi in good conscience.
 
 ## Support of Russian services
 
@@ -25,7 +25,7 @@ Is it ethical to finance a company which consistently promotes division among th
 
 Kagi currently [recommends](https://help.kagi.com/kagi/ai/assistant.html#which-model-to-choose) eight LLMs, including Grok. There are plenty of LLMs to choose from, yet Kagi continues to include Grok despite pushback from the community. Why is that?
 
-<p style="text-align: center">...</p>
+<p style="text-align: center">* * *</p>
 
 I don't believe Kagi is upholding their mission of making the web more ethical. No matter the ethical framework, the firm financial support of Russian services is harming Ukrainians and the world. Paying X/Twitter is ultimately harming society as a whole and creating a more-fractured and divided world.
 
