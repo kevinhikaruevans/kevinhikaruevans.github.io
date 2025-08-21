@@ -27,7 +27,7 @@ Kagi currently [recommends](https://help.kagi.com/kagi/ai/assistant.html#which-m
 
 <p style="text-align: center">* * *</p>
 
-I don't believe Kagi is upholding their mission of making the web more ethical. No matter the ethical framework, the firm financial support of Russian services is harming Ukrainians and the world. Paying X/Twitter is ultimately harming society as a whole and creating a more-fractured and divided world.
+I don't believe Kagi is upholding their mission of making the web more ethical. No matter the ethical framework, the firm financial support of Russian services is harming Ukrainians and the world. Paying X/Twitter is ultimately harming society as a whole and creating a more-fractured and divided world. It'd odd that Kagi dismisses these valid concerns, noting that they're more focused on providing a better search, etc. But if they strive to be an ethical company, wouldn't that take precedence over search result quality?
 
 
 None of us are perfect. No companies are perfect. But, much like how Kagi can choose which heinous companies to partner with---you and I too can choose which companies to support. 
