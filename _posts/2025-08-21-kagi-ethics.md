@@ -23,7 +23,7 @@ A portion of your fee goes towards Twitter/X to support Grok in their AI assista
 
 Is it ethical to finance a company which consistently promotes division among the population, the spread of misinformation, and hate speech? Is it ethical to give money to a company that continually platforms white supremacists?
 
-Kagi currently recommends eight LLMs, including Grok. There are plenty of LLMs to choose from, yet Kagi continues to include Grok despite pushback from the community.
+Kagi currently [recommends](https://help.kagi.com/kagi/ai/assistant.html#which-model-to-choose) eight LLMs, including Grok. There are plenty of LLMs to choose from, yet Kagi continues to include Grok despite pushback from the community. Why is that?
 
 <p style="text-align: center">...</p>
 
