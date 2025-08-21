@@ -15,7 +15,7 @@ A portion of your fee goes towards [Yandex](https://en.wikipedia.org/wiki/Yandex
 
 Is it ethical to continue funding a large Russian-based company knowing full well it goes towards killing innocent lives?
 
-At least other search engines like DuckDuckGo have halted their partnerships with Yandex. Kagi's refusal to do so and Vlad's firm support of Yandex is quite telling. If others have ceased partnering with Yandex, why can't Vlad?
+At least other search engines like DuckDuckGo have [halted](https://web.archive.org/web/20220302093150/https://www.protocol.com/bulletins/duckduckgo-yandex-ukraine) their partnerships with Yandex. Kagi's refusal to do so and Vlad's firm support of Yandex is quite telling. If others have ceased partnering with Yandex, why can't Vlad?
 
 ## Inclusion of X/Twitter xAI's Grok
 
