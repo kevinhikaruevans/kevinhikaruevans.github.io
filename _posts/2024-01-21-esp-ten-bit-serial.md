@@ -6,15 +6,15 @@ tags: esp32 computers
 ---
 
 
-I was working on a device that appears to use a bidirectional 10-bit serial interface at exactly 100 kHz. The manufacturer does not give _any_ information on their proprietary format, so I guess I'll have to hack something together. This was originally for a client, but we ended up not going this route and ended up completely bypassing the device's PS/PL (and opted for analog stuff).
+Recently, I was working on integrating with a device that appears to use a bidirectional 10-bit serial interface at exactly 100 kHz. The manufacturer does not give _any_ information on their proprietary format, so I guess I'll have to hack something together.
 
 To begin, the master initiates the sequence by sending several 10-bit frames and slaves respond by driving the line low and responding with their own packets. On my logic analyzer, it looks something like this:
 
 ![10 bit serial screenshot](/assets/images/2024-01-25-bits.png)
 
-Unfortunately, I don't own anything that natively supports 10-bit serial. All of my chips only support up to 8-bit and one even supports 9-bit (addressed) serial!
+Unfortunately, I don't own anything that natively supports 10-bit serial. All of my chips only support up to 8-bit and one even supports 9-bit (addressed) serial.
 
-Ideally, I would like to use an ESP32-S3, mostly because I have a ton of them around and I'm fairly familiar with ESP-IDF.
+Ideally, I would like to use an ESP32-S3, mostly because I've been working with ESP-IDF lately and find it good enough for a project like this.
 
 ### Attempt 1: Bitbanging serial
 
@@ -22,7 +22,7 @@ I attempted to just bitbang serial using several timers on the ESP32. I initiall
 
 Then I tried the general purpose (GP) timer and while it's able to reach 10 us periods, it sometime skewed more than a microsecond or two! This is not acceptable for this application since there is no external clock.
 
-### Attempt 2: RMT peripheral!
+### Attempt 2: ✨ RMT peripheral ✨
 
 After consulting the ESP32 forum, I tried the [remote control transceiver (RMT) peripheral](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-reference/peripherals/rmt.html). To my surprise, this worked wonderfully. It is made for controlling remote control signals, but has numerous applications outside of that realm.
 
